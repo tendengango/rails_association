@@ -1,3 +1,3 @@
 class Address < ApplicationRecord
-    has_many :orders, :through => :customers 
+    has_many :orders 
 end
